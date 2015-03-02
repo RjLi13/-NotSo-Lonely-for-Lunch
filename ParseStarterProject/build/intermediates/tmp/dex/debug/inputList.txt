@@ -1,4 +1,8 @@
-/Users/trizzle21/Documents/hackjam2015/HackJam/ParseStarterProject/build/intermediates/classes/debug
-/Users/trizzle21/Documents/hackjam2015/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-e93eebb0518bbf906fefd28e23241f0bc879aba1.jar
-/Users/trizzle21/Documents/hackjam2015/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2-159a7d07faf2e7952c1d93c961a058cb83902f52.jar
-/Users/trizzle21/Documents/hackjam2015/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.8.2-13b747a7718f93907c88f7f13f6bbcbc383c2477.jar
+/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/classes/debug
+/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-3da763742bc689bfbe1a41b795d547f156c0e944.jar
+/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-6cc9c78525e4241f8f927b3d80039b11860956b6.jar
+/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2-23cac8410330e2b4ecdae818d15e235cfbb3e956.jar
+/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-e39350de8406f35b976510f584535063d923e3f0.jar
+/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.8.2-4d1dcd06cd254ab4834ef9578113664de5b5ba0b.jar
+/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-1edf790229ba8a2534e3e7a1b023798610185b3b.jar
+/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-51228a9dacc1890e3b91c2ca497396adaa5de4ea.jar

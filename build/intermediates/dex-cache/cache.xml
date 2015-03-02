@@ -2,25 +2,53 @@
 <items version="2" >
 
     <item
-        jar="/Users/trizzle21/Documents/hackjam2015/HackJam/ParseStarterProject/libs/ParseCrashReporting-1.8.2.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="ccf9e90414e7bb2cf09f4d7c77c42f70c690e118">
-        <dex dex="/Users/trizzle21/Documents/hackjam2015/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2-159a7d07faf2e7952c1d93c961a058cb83902f52.jar" />
-    </item>
-    <item
-        jar="/Users/trizzle21/Documents/hackjam2015/HackJam/ParseStarterProject/libs/Parse-1.8.2.jar"
+        jar="/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/libs/Parse-1.8.2.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
-        <dex dex="/Users/trizzle21/Documents/hackjam2015/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.8.2-13b747a7718f93907c88f7f13f6bbcbc383c2477.jar" />
+        <dex dex="/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.8.2-4d1dcd06cd254ab4834ef9578113664de5b5ba0b.jar" />
     </item>
     <item
-        jar="/Users/trizzle21/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jar="/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-51228a9dacc1890e3b91c2ca497396adaa5de4ea.jar" />
+    </item>
+    <item
+        jar="/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/libs/ParseCrashReporting-1.8.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ccf9e90414e7bb2cf09f4d7c77c42f70c690e118">
+        <dex dex="/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2-23cac8410330e2b4ecdae818d15e235cfbb3e956.jar" />
+    </item>
+    <item
+        jar="/Users/ruijing/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="/Users/trizzle21/Documents/hackjam2015/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-e93eebb0518bbf906fefd28e23241f0bc879aba1.jar" />
+        <dex dex="/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-6cc9c78525e4241f8f927b3d80039b11860956b6.jar" />
+    </item>
+    <item
+        jar="/Users/ruijing/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-3da763742bc689bfbe1a41b795d547f156c0e944.jar" />
+    </item>
+    <item
+        jar="/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-1edf790229ba8a2534e3e7a1b023798610185b3b.jar" />
+    </item>
+    <item
+        jar="/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/ruijing/Documents/HackJam!/HackJam/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-e39350de8406f35b976510f584535063d923e3f0.jar" />
     </item>
 
 </items>

@@ -6,9 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
+import com.parse.LogInCallback;
 import com.parse.ParseAnalytics;
+import com.parse.ParseException;
 import com.parse.ParseObject;
+import com.parse.ParseUser;
+
+import java.util.Locale;
 
 public class ParseStarterProjectActivity extends Activity {
 	/** Called when the activity is first created. */
@@ -21,24 +28,21 @@ public class ParseStarterProjectActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-        ParseObject testObject = new ParseObject("TestObject");
-        testObject.put("foo", "bar");
-        testObject.saveInBackground();
 		ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
-        setUpButtons();
-    }
 
-    private void setUpButtons() {
+
+
         registerButton = (Button) findViewById(R.id.register_button);
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setUpUserName();
+                Intent intent = new Intent(ParseStarterProjectActivity.this, SignUpActivity.class);
+                ParseStarterProjectActivity.this.startActivity(intent);
             }
         });
 
-        loginButton = (Button) findViewById(R.id.register_button);
+        loginButton = (Button) findViewById(R.id.login_button);
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,17 +50,23 @@ public class ParseStarterProjectActivity extends Activity {
                 username = username_editText.getText().toString();
                 EditText password_editText = (EditText) findViewById(R.id.password_editText);
                 password = password_editText.getText().toString();
+                ParseUser.logInInBackground(username.toLowerCase(Locale.getDefault()), password, new LogInCallback() {
+                    @Override
+                    public void done(ParseUser user, ParseException e) {
+                        if (e == null) {
+                            Intent intent = new Intent(ParseStarterProjectActivity.this, MatchActivity.class);
+                            startActivity(intent);
+                        }
+                        else {
+                            Toast.makeText(getApplicationContext(), "Incorrect Username/Password", Toast.LENGTH_SHORT).show();;
+                        }
+                    }
+                });
+
+
             }
         });
-
-
     }
-    // goes to SignUpActivity,
-    private void setUpUserName(){
-        Intent intent = new Intent(this, SignUpActivity.class);
-        startActivity(intent);
-    }
-
 
 
 
